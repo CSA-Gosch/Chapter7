@@ -12,7 +12,7 @@ public class RepairName {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Please enter your first name >>>");
+        System.out.print("Please enter your first name and/or last name >>>");
         name = input.nextLine();
 
         saveOriginalName = name;
@@ -36,7 +36,7 @@ public class RepairName {
                     name = name.substring(0, i) + c + name.substring(i + 1, name.length());
                 }
         }
-        System.out.print("Original name was " + saveOriginalName + "\nRepaired bane is " + name);
+        System.out.print("Original name was " + saveOriginalName + "\nRepaired nane is " + name);
 
 
     }
